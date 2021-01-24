@@ -70,6 +70,9 @@ const ButtonDisplay = styled.button`
   text-decoration: none;
   text-align: center;
   text-shadow: 0px 1px 0px #ffffff;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 const LabelHeader = styled.label`
